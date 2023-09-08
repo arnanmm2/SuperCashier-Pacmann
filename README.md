@@ -25,7 +25,13 @@ Andi adalah seorang pemilik supermarket besar di salah satu kota di Indonesia. A
 2. **datetime**: Digunakan untuk mendapatkan tanggal dan waktu transaksi saat ini.
 3. **tabulate**: Digunakan untuk mencetak faktur dalam format tabel yang rapi.
 4. **numpy**: Digunakan untuk operasi numerik (meskipun tampaknya tidak digunakan dalam kode ini).
+## Flowchart
 
+## Cara pakai
+1. Pertama user membuka file Supercashier.py
+2. Setelah program sudah di buka, akan terdapat petunjuk penggunaan.
+3. User dapat memilih dari angka 1-6 untuk memilih fitur yang ada pada program ini
+   
 ## Functions
 
 ### validate_name(name)
