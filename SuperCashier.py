@@ -1,16 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[7]:
-
 
 import random
 from datetime import datetime
 from tabulate import tabulate
 import numpy as np
 
-
-# In[8]:
 
 
 def validate_name(name):
@@ -28,8 +24,6 @@ def validate_price(price):
     if not isinstance(price, (int, float)) or price < 0:
         raise ValueError("Harga item tidak boleh negatif")
 
-
-# In[9]:
 
 
 class Transaction:
@@ -136,13 +130,9 @@ class Transaction:
             print(f"Kesalahan saat menghitung harga total: {e}")
 
 
-# (Sertakan definisi dari validate_name, validate_qty, validate_price, dan kelas Transaction di sini)
 def create_invoice(transaction):
     print("Membuat faktur...")
-    # Membuat batas bertema One Piece
     border = "*" * 50
-    
-    # Membuat tajuk bertema One Piece
     header = """
     ___   _   _   ___   _   _   ___   _   _   _   _  
    / _ \ | | | | / _ \ | \ | | / _ \ | | | | | \ | | 
@@ -165,10 +155,10 @@ def create_invoice(transaction):
     table_data.append(["Persentase Diskon", "", "", f"{persentase_diskon}%"])
     table_string = tabulate(table_data, headers=['Item', 'Kuantitas', 'Harga', 'Total Harga'], tablefmt='plain')
     
-    # Menggabungkan semua elemen untuk membuat faktur
+    # Menggabungkan semua elemen untuk membuat invoice
     invoice = f"{border}\n{header}\nID Transaksi: {transaction.transaction_id}\nTanggal Transaksi: {transaction.transaction_date}\n{border}\n{table_string}\n{border}"
     
-    # Mencetak faktur
+    # Mencetak invoice
     print(invoice)
     print("Faktur dibuat.")
 # menampilkan menu
