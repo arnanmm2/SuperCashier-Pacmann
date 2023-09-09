@@ -24,7 +24,6 @@ Andi adalah seorang pemilik supermarket besar di salah satu kota di Indonesia. A
 1. **random**: Digunakan untuk menghasilkan ID transaksi acak.
 2. **datetime**: Digunakan untuk mendapatkan tanggal dan waktu transaksi saat ini.
 3. **tabulate**: Digunakan untuk mencetak faktur dalam format tabel yang rapi.
-4. **numpy**: Digunakan untuk operasi numerik (meskipun tampaknya tidak digunakan dalam kode ini).
 ## Flowchart
 ![test_cashier drawio](https://github.com/arnanmm2/SuperCashier-Pacmann/assets/107466083/3238103d-1ff3-40c9-b9ac-6bc7bf645d3b)
 ## Cara pakai
