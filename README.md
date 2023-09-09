@@ -1,4 +1,4 @@
-![test_cashier drawio](https://github.com/arnanmm2/SuperCashier-Pacmann/assets/107466083/2e4456ff-595f-4747-8ffd-e06e22bda947)
+
 # Supermarket Self-Service Cashier System
 
 ## Background
