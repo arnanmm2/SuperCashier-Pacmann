@@ -26,8 +26,65 @@ Andi adalah seorang pemilik supermarket besar di salah satu kota di Indonesia. A
 3. **tabulate**: Digunakan untuk mencetak faktur dalam format tabel yang rapi.
 4. **numpy**: Digunakan untuk operasi numerik (meskipun tampaknya tidak digunakan dalam kode ini).
 ## Flowchart
+![My Diagram](
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Flowchart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .svg-content {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="svg-content">
+        digraph TransactionFlowchart {
+	A [label=Start]
+	B [label="Inisialisasi: trnsct_123 = Transaction()"]
+	C [label="Menambahkan Item:
+trnsct_123.add_item([nama item, jumlah item, harga item])"]
+	D [label="Memodifikasi Transaksi (Jika diperlukan):
+- update_item_name(nama lama, nama baru)
+- update_item_qty(nama item, jumlah baru)
+- update_item_price(nama item, harga baru)"]
+	E [label="Menghapus Item (Jika diperlukan):
+- delete_item(nama item)
+- reset_transaction()"]
+	F [label="Memeriksa Pesanan:
+trnsct_123.check_order()"]
+	G [label="Menghitung Total:
+trnsct_123.total_price()"]
+	H [label=End]
+	A -> B
+	B -> C
+	C -> D [label="Jika diperlukan"]
+	D -> E [label="Jika diperlukan"]
+	C -> E [label="Jika tidak diperlukan"]
+	D -> F [label="Jika tidak diperlukan"]
+	E -> F [label="Jika tidak diperlukan"]
+	F -> G
+	G -> H
+}
 
-
+    </div>
+</body>
+</html>
+)
 ## Cara pakai
 1. Pertama user membuka file Supercashier.py
 2. Setelah program sudah di buka, akan terdapat petunjuk penggunaan.
