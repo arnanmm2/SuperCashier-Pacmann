@@ -3,7 +3,7 @@
 
 ## Background
 
-Andi adalah seorang pemilik supermarket besar di salah satu kota di Indonesia. Andi memiliki rencana untuk melakukan perbaikan proses bisnis dengan menciptakan sistem kasir self-service di supermarket miliknya. Ini memungkinkan pelanggan untuk memasukkan item yang ingin dibeli, jumlah item, dan harga item secara langsung. Selain itu, sistem ini juga memungkinkan pelanggan yang tidak berada di kota tersebut untuk melakukan pembelian. Namun, Andi menghadapi masalah karena ia membutuhkan programmer untuk me...
+Andi adalah seorang pemilik supermarket besar di salah satu kota di Indonesia. Andi memiliki rencana untuk melakukan perbaikan proses bisnis, yaitu Andi akan membuat system kasir yang self-service di supermarket miliknya. Sehingga customer bisa langsung memasukkan item yang dibeli, jumlah item yang dibeli, dan harga item yang dibeli dan fitur yang lain. Sehingga customer yang tidak berada di kota tersebut bisa membeli barang dari supermarket tersebut. Setelah Andi melakukan riset, ternyata Andi memiliki masalah, yaitu andi membutuhkan Programmer untuk membuatkan fitur-fitur agar bisa system kaiser serl-service di supermarket itu bisa berjalan dengan lancar. 
 
 ## Requirements
 
